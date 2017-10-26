@@ -11,7 +11,6 @@ require 'pry'
 
 def reverse_each_word(sentence)
     array = sentence.split(/ ? /)
-    binding.pry
     reversed_words=[]
 reversed_words = array.collect(&:reverse)
 reversed_words.join(" ")

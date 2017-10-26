@@ -15,3 +15,4 @@ def reverse_each_word(sentence)
   reversed_words = array.collect(&:reverse)
   reversed_words.join(" ")
  end
+ # sentence.split.collect(&:reverse).join(" ")

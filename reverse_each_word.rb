@@ -11,5 +11,12 @@ reversed_words.join(" ")
     # .reverse
     # end
 end
-
+def reverse_each_word (sentence)
+    array = sentence.split(/ ? /)
+    reversed_words=[]
+array.collect { |x| x + " " }
+  reversed_words << word.reverse
+  end
+reversed_words.join(" ")
  #  sentence.collect(&:reverse)
+ end 

@@ -10,9 +10,8 @@ require 'pry'
 # end
 
 def reverse_each_word(sentence)
-    array = sentence.split(/ ? /)
-    reversed_words=[]
-reversed_words = array.collect(&:reverse)
-reversed_words.join(" ")
- #  sentence.collect(&:reverse)
+  array = sentence.split(/ ? /)
+  reversed_words=[]
+  reversed_words = array.collect(&:reverse)
+  reversed_words.join(" ")
  end
